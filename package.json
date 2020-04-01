@@ -1,0 +1,17 @@
+{
+  "name": "jest-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "laravel-mix": "^5.0.4",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
