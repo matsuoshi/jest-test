@@ -95,7 +95,7 @@
 
 var sum = __webpack_require__(/*! ./sum */ "./src/sum.js");
 
-var result = sum(2, 2);
+var result = sum(10, 20);
 document.getElementById("sample").value = result;
 
 /***/ }),
@@ -108,7 +108,7 @@ document.getElementById("sample").value = result;
 /***/ (function(module, exports) {
 
 function sum(a, b) {
-  return a + b;
+  return a + b + 5;
 }
 
 module.exports = sum;
